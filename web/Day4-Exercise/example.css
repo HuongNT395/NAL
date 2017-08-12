@@ -47,8 +47,8 @@ article{
 h2{
     margin-top: 30px;
 }
-.phonthe{
-    font-size: 10px;
+.phonthe {
+    font-size: 16px;
 }
 .describe:first-child{
     color: black;
@@ -65,19 +65,19 @@ article ul{
 article li{
     clear: both;
 }
-article li .info,
-article li .input{
+.info,
+.input{
     font-size: 16px;
     border:  1px solid black;
     height: 31px;
 }
-article li .info{
-    width: 30%;
+.info{
+    width: 25%;
     float: left;
     padding: 5px;
 }
-article li .input{
-    width: 70%;
+.input{
+    width: 75%;
     float: left;
     padding: 1px 5px;
 }
@@ -91,10 +91,11 @@ input[name = short]{
 select{
     height: 26.5px;
 }
-form ul{
-    margin-bottom: 80px;
+.display{
+    width: 100%;
+    height: 31px;
 }
-#web1{
+#web1 {
     font-size: 15px;
     padding: 10px;
     width: 90%;
@@ -102,6 +103,7 @@ form ul{
     text-align: center;
     border-bottom: 2px dashed red;
     border-top: 2px dashed red;
+    margin-top: 30px;
 }
 #web2{
     font-size: 14px;

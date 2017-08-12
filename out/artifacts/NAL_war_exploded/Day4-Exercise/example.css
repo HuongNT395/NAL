@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+#container{
+    width: 100%;
+}
+header,
+footer{
+    padding: 25px;
+    background-color: #3b413d;
+    color: white;
+    text-align: center;
+}
+nav{
+    width: 10%;
+    height: auto;
+    /*border: 1px solid black;*/
+    float: left;
+}
+nav ul{
+    margin: 25px ;
+    list-style-type: none;
+}
+nav li{
+    padding: 3px;
+}
+nav a{
+    text-decoration: none;
+    font-size: 16px;
+}
+article{
+    width: 70%;
+    height: auto;
+    float: left;
+    margin-left: 10%;
+
+}
+.describe{
+    font-size: 16px;
+    padding: 5px;
+    border: 1px solid red;
+    color: red;
+    margin-top: 30px;
+}
+h2{
+    margin-top: 30px;
+}
+.phonthe{
+    font-size: 10px;
+}
+.describe:first-child{
+    color: black;
+    border: 1px solid black;
+}
+form{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+article ul{
+    width: 100%;
+    list-style-type: none;
+}
+article li{
+    clear: both;
+}
+article li .info,
+article li .input{
+    font-size: 16px;
+    border:  1px solid black;
+    height: 31px;
+}
+article li .info{
+    width: 30%;
+    float: left;
+    padding: 5px;
+}
+article li .input{
+    width: 70%;
+    float: left;
+    padding: 1px 5px;
+}
+input[type = text]{
+    height: 27px;
+    width: 80%;
+}
+input[name = short]{
+    width: 60%;
+}
+select{
+    height: 26.5px;
+}
+form ul{
+    margin-bottom: 80px;
+}
+#web1{
+    font-size: 15px;
+    padding: 10px;
+    width: 90%;
+    margin-left: 5%;
+    text-align: center;
+    border-bottom: 2px dashed red;
+    border-top: 2px dashed red;
+}
+#web2{
+    font-size: 14px;
+    padding: 10px 0;
+    width: 90%;
+    margin-left: 5%;
+}
+#web3{
+    font-size: 15px;
+    padding: 10px;
+    width: 90%;
+    margin-left: 5%;
+    border: 1px solid black;
+    height: 150px;
+    overflow: scroll;
+    font-family: Tahoma;
+    font-weight: 200;
+}
+#check{
+    padding: 20px;
+    text-align: center;
+}
+#btn{
+    text-align: center;
+}
+button{
+    padding: 5px;
+    width: 150px;
+}
+footer{
+    clear: both;
+}
+

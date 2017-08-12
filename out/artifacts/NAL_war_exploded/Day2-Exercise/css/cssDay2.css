@@ -1,0 +1,30 @@
+body {
+    font-family: Tahoma;
+    font-size: 11px;
+    text-align: justify;
+}
+.container {
+    width: 60%;
+    margin-left: 20%;
+    font-size: 16px;
+}
+.pTittle {
+    text-indent: 10px;
+}
+h1 {
+    text-transform: uppercase; font-weight: 500;
+
+}
+ul li {
+    font-family: consolas;
+}
+.italic {
+    color: red;
+}
+.list {
+    list-style-type: circle;
+}
+img {
+    height: 479px;
+    width: 356px;
+}

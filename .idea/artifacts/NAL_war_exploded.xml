@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="NAL:war exploded">
+    <output-path>$PROJECT_DIR$/../NAL/out/artifacts/NAL_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="NAL/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="NAL" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

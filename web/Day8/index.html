@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <title>Form</title>
+</head>
+<body>
+    <form method="post" action="https://youtube-api-challenger.appspot.com/member/register">
+        <fieldset class="form">
+            <legend>Thông tin cơ bản</legend>
+            <div class="left">
+                <p><label for="username">Tên tài khoản</label></p>
+                <p><label for="email">Email</label></p>
+                <p><label for="password">Mật khẩu</label></p>
+                <p><label for="cornfirmPassword">Xác nhận mật khẩu</label></p>
+            </div>
+            <div class="right">
+                <p><input type="text" name="username" id="username" placeholder="Tài khoản đăng nhập."></p>
+                <p><input type="email" name="email" id="email" placeholder="Email của bạn."></p>
+                <p><input type="password" name="password" id="password" placeholder="Mật khẩu đăng nhập."></p>
+                <p><input type="password" name="cornfirmPassword" id="cornfirmPassword" placeholder="Nhập lại mật khẩu."></p>
+            </div>
+        </fieldset>
+        <fieldset class="form">
+            <legend>Thông tin chi tiết</legend>
+            <div class="left">
+                <p><label for="name">Họ và tên</label></p>
+                <p><label for="dateOfBirth">Ngày sinh</label></p>
+                <p><label for="gender">Giới tính</label></p>
+                <p><label for="hobby">Sở thích</label></p>
+                <p><label for="avatar">Ảnh đại diện</label></p>
+                <p><label for="introduce">Giới thiệu</label></p>
+            </div>
+            <div class="right">
+                <p><input type="text" name="fullName" id="name" placeholder="Họ và tên của bạn."></p>
+                <p><input type="date" name="birthDay" id="dateOfBirth"></p>
+                <p>
+                    <input type="radio" name="gender" value="0" checked> Nam
+                    <input type="radio" name="gender" value="1"> Nữ
+                </p>
+                <p>
+                    <input type="checkbox" name="favourite" value="Thể thao"> Thể thao
+                    <input type="checkbox" name="favourite" value="Xem phim"> Xem phim
+                    <input type="checkbox" name="favourite" value="Nghe nhạc" checked> Nghe nhạc
+                    <input type="checkbox" name="favourite" value="Đọc sách" checked> Đọc sách
+                </p>
+                <p><input type="file" name="avatar" id="avatar"></p>
+                <p><textarea name="introduce" id="introduce"></textarea></p>
+            </div>
+        </fieldset>
+        <p class="button">
+            <button type="submit">Đăng ký</button>
+            <button type="reset">Làm lại</button>
+        </p>
+    </form>
+</body>
+</html>
